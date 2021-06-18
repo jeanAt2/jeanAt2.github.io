@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/body.css" />
+    <link rel="stylesheet" href="styles/title.css" />
+    <link rel="stylesheet" href="styles/sub-title.css" />
+    <link rel="stylesheet" href="styles/about-me.css" />
+    <link rel="stylesheet" href="styles/competence.css" />
+    <link rel="stylesheet" href="styles/skills.css" />
+    <link rel="stylesheet" href="styles/link-media.css" />
+    <link rel="stylesheet" href="styles/socialMedia.css" />
+    <link rel="stylesheet" href="styles/svg.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/home.css" />
+    <link rel="stylesheet" href="styles/text.css" />
+    <link rel="stylesheet" href="styles/expertise.css" />
+    <link rel="stylesheet" href="styles/social-media-me.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <title>Jean Santos - Developer Front-end</title>
+  </head>
+  <body class ="root">
+    <h1 class="title">Jean Santos</h1>
+    <buttoo>Home</buttoo> 
+    <buttoo></buttoo>
+    <div class="body">
+      <section class="header">
+        <figure>
+          <img src="img/profile.png" alt="Minha Foto de Perfil" />
+          <figcaption class="fig-title">Desenvolvedor Front-End</figcaption>
+        </figure>
+        <section class="social-media-me">
+          <h3 class="sub-title ">Redes Sociais</h3>
+            <figure class="socialMedia">
+              <a class ="link-media" href="https://github.com/jeanAt2" target="_blank">
+                <i data-feather="github"></i>
+                <label>Follow me on Github</label>
+              <a/>
+            </figure>
+            <figure class="socialMedia">
+              <a class ="link-media" href="https://www.linkedin.com/in/jeandossantosmd" target="_blank">
+                <i data-feather="linkedin"></i>
+                <label>Follow me on Linkedin</label>
+              </a>
+            </figure>
+            <figure class="socialMedia">
+              <a class ="link-media" href="https://www.instagram.com/jean.at2/" target="_blank">
+                <i data-feather="instagram"></i>
+                <label>Follow me on instagram</label>
+              </a>
+            </figure>
+            <figure class="socialMedia">
+              <a class ="link-media" href="https://www.facebook.com/jeanSantos.a2/" target="_blank">
+                <i data-feather="facebook"></i>
+                <label>Follow me on Facebook</label>
+              </a>
+            </figure>
+          </section>
+      </section>
+      <form action="enviarEmail()"method="post">
+          <h2 class="sub-title">Contato</h2>
+          <label>Nome:</label> 
+          <input type="text" name="" id="name" placeholder="Nome Completo:">
+          <label>E-mail:</label> 
+          <input type="email" name="" id="email" placeholder="email@email.com">
+          <label>Título:</label>         
+          <input type="text" name="" id="titleEmail" placeholder="Título da Mensagem">
+          <label> Mensagem</label>
+          <textarea id="message" placeholder="Digite aqui sua mensagem."></textarea>
+          <button onClick=`${enviarEmail()}`>Enviar</button>
+      </form>
+        </div>
+      </div>
+    <script>
+      feather.replace()
+    </script>
+  </body>
+</html>
